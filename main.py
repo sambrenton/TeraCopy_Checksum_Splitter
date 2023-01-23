@@ -3,7 +3,7 @@ import os
 # Define Root directory
 src = 'PATH/TO/FILES'
 
-# Interate over all contents
+# Iterate over all contents
 for root, dirs, files in os.walk(src):
         for file in files:
 
